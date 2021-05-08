@@ -1,0 +1,115 @@
+body {
+  font-family:Roboto, "San Francisco", sans-serif; /* Android and iOS font */
+}
+
+.container {
+  width: 100%;
+}
+
+.desktop {
+  display:block;
+}
+
+.tablet {
+  display:none;
+}
+
+.phone {
+  display:none;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  transition: background-color 1s;
+}
+
+header:hover {
+  background-color: rgba(0, 255, 255, 1); /* pure cyan */
+}
+
+.header-left {
+  float: left;
+  margin-top:20px;
+  margin-left:5px;
+  transition: color 1s;
+}
+
+.header-left:hover {
+  color: #0000ff; /* pure blue */
+}
+
+.header-right {
+  float: right;
+  margin-top:20px;
+  margin-right:5px;
+  transition: color 1s;
+}
+
+.header-right:hover {
+  color: #0000ff; /* pure blue */
+}
+
+footer p {
+  color: #808888; /* slightly cyanish gray */
+  font-size: 12px;
+}
+
+footer {
+  height: 70px;
+  padding-top: 20px;
+  background-color: rgba(250, 255, 255, 1); /* extremely light cyan */
+}
+
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .desktop {
+    display:none;
+  }
+
+  .tablet {
+    display:block;
+  }
+
+  .phone {
+    display:none;
+  }
+  img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .desktop {
+    display:none;
+  }
+
+  .tablet {
+    display:none;
+  }
+
+  .phone {
+    display:block;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+td {
+  border: 1px solid #808080;
+}
