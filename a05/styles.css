@@ -1,17 +1,21 @@
+body {
+  font-family:Roboto, "San Francisco", sans-serif; /* Android and iOS font */
+}
+
 .container {
   width: 100%;
 }
 
 .desktop {
-	display:block;
+  display:block;
 }
 
 .tablet {
-	display:none;
+  display:none;
 }
 
 .phone {
-	display:none;
+  display:none;
 }
 
 img {
@@ -66,46 +70,46 @@ footer {
 
 /* For Tablets */
 @media all and (max-width: 1000px) {
-	.desktop {
-		display:none;
-	}
+  .desktop {
+    display:none;
+  }
 
-	.tablet {
-		display:block;
-	}
+  .tablet {
+    display:block;
+  }
 
-	.phone {
-		display:none;
-	}
-	img {
-		height: 250px;
-		width: 250px;
-	}
+  .phone {
+    display:none;
+  }
+  img {
+    height: 250px;
+    width: 250px;
+  }
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-	.desktop {
-		display:none;
-	}
+  .desktop {
+    display:none;
+  }
 
-	.tablet {
-		display:none;
-}
+  .tablet {
+    display:none;
+  }
 
-	.phone {
-		display:block;
-	}
-	img {
-  		height: 150px;
-  		width: 150px;
-	}
+  .phone {
+    display:block;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+  }
 }
 
 table {
-	border: 1px solid black;
-	width: 100%;
+  border: 1px solid black;
+  width: 100%;
 }
 td {
-	border: 1px solid #808080;
+  border: 1px solid #808080;
 }
