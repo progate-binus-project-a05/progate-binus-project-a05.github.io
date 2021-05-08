@@ -38,7 +38,7 @@ header:hover {
 .header-left {
   float: left;
   margin-top:20px;
-  margin-left:5px;
+  margin-left:20px;
   transition: color 1s;
 }
 
@@ -49,7 +49,7 @@ header:hover {
 .header-right {
   float: right;
   margin-top:20px;
-  margin-right:5px;
+  margin-right:20px;
   transition: color 1s;
 }
 
@@ -119,6 +119,10 @@ table {
     background-color: rgba(226, 192, 128, 0.1);
 }
 
+.members{
+    margin-top: 50px;
+}
+
 .members h1{
     color: #5b5ca3;
 }
@@ -143,7 +147,7 @@ table, tr, td{
 
 .introduction{
     margin-left: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .intro-container{
