@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+}
+
+.desktop {
+	display:block;
+}
+
+.tablet {
+	display:none;
+}
+
+.phone {
+	display:none;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 255, 255, 1);
+  position :fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-left {
+  float: left;
+  margin-top:20px;
+  margin-left:5px;
+}
+
+.header-right {
+  float: right;
+  margin-top:20px;
+  margin-right:5px;
+}
+
+/* For Tablets */
+@media all and (max-width: 1000px) {
+	.desktop {
+		display:none;
+	}
+
+	.tablet {
+		display:block;
+	}
+
+	.phone {
+		display:none;
+	}
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+	.desktop {
+		display:none;
+	}
+
+	.tablet {
+		display:none;
+}
+
+	.phone {
+		display:block;
+	}
+}
