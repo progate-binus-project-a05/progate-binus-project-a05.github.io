@@ -58,14 +58,16 @@ header:hover {
 }
 
 footer p {
-  color: #808888; /* slightly cyanish gray */
+  color: whitesmoke; /* slightly cyanish gray */
   font-size: 12px;
+  text-align: center;
 }
 
 footer {
-  height: 70px;
+  height: 60px;
+  margin-top: 100px;
   padding-top: 20px;
-  background-color: rgba(250, 255, 255, 1); /* extremely light cyan */
+  background-color: rgb(120, 121, 186); 
 }
 
 /* Responsive for tablets */
