@@ -68,7 +68,7 @@ footer {
   background-color: rgba(250, 255, 255, 1); /* extremely light cyan */
 }
 
-/* For Tablets */
+/* Responsive for tablets */
 @media all and (max-width: 1000px) {
   .desktop {
     display:none;
@@ -87,7 +87,7 @@ footer {
   }
 }
 
-/* For Smartphones */
+/* Responsive for smartphones */
 @media all and (max-width: 670px) {
   .desktop {
     display:none;
