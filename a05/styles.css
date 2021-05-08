@@ -17,15 +17,23 @@
 header {
   height: 70px;
   width: 100%;
-  background-color: rgba(0, 255, 255, 1); /* pure cyan */
   top: 0;
   z-index: 1;
+  transition: background-color 1s;
+}
+
+header:hover {
+  background-color: rgba(0, 255, 255, 1); /* pure cyan */
 }
 
 .header-left {
   float: left;
   margin-top:20px;
   margin-left:5px;
+  transition: color 1s;
+}
+
+.header-left:hover {
   color: #0000ff; /* pure blue */
 }
 
@@ -33,6 +41,10 @@ header {
   float: right;
   margin-top:20px;
   margin-right:5px;
+  transition: color 1s;
+}
+
+.header-right:hover {
   color: #0000ff; /* pure blue */
 }
 
