@@ -17,8 +17,7 @@
 header {
   height: 70px;
   width: 100%;
-  background-color: rgba(0, 255, 255, 1);
-  position :fixed;
+  background-color: rgba(0, 255, 255, 1); /* pure cyan */
   top: 0;
   z-index: 1;
 }
@@ -27,12 +26,25 @@ header {
   float: left;
   margin-top:20px;
   margin-left:5px;
+  color: #0000ff; /* pure blue */
 }
 
 .header-right {
   float: right;
   margin-top:20px;
   margin-right:5px;
+  color: #0000ff; /* pure blue */
+}
+
+footer p {
+  color: #808888; /* slightly cyanish gray */
+  font-size: 12px;
+}
+
+footer {
+  height: 70px;
+  padding-top: 20px;
+  background-color: rgba(250, 255, 255, 1); /* extremely light cyan */
 }
 
 /* For Tablets */
