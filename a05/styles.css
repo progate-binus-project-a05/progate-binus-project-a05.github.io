@@ -113,3 +113,32 @@ table {
 td {
   border: 1px solid #808080;
 }
+
+table {
+    font-family: "Lucida Console";
+    background-image: url(paint.jpeg);
+    background-color: rgba(73, 201, 192, 0.4);
+}
+
+td{
+    padding: 10px 10px;
+}
+
+table, tr, td{
+    border: 2px solid gray;
+}
+
+.team-name{
+    font-size: 20px;
+    text-align: center;
+}
+
+.mascot{
+    margin: 30px;
+    text-align: center;
+}
+
+.introduction{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
