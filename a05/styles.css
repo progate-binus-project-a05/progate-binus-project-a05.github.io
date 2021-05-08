@@ -32,7 +32,7 @@ header {
 }
 
 header:hover {
-  background-color: rgba(0, 255, 255, 1); /* pure cyan */
+  background-color: rgb(120, 121, 186); 
 }
 
 .header-left {
@@ -43,7 +43,7 @@ header:hover {
 }
 
 .header-left:hover {
-  color: #0000ff; /* pure blue */
+  color: whitesmoke;
 }
 
 .header-right {
@@ -54,7 +54,7 @@ header:hover {
 }
 
 .header-right:hover {
-  color: #0000ff; /* pure blue */
+  color: whitesmoke;
 }
 
 footer p {
@@ -116,8 +116,11 @@ td {
 
 table {
     font-family: "Lucida Console";
-    background-image: url(paint.jpeg);
-    background-color: rgba(73, 201, 192, 0.4);
+    background-color: rgba(226, 192, 128, 0.1);
+}
+
+.members h1{
+    color: #5b5ca3;
 }
 
 td{
@@ -125,7 +128,7 @@ td{
 }
 
 table, tr, td{
-    border: 2px solid gray;
+    border: 2px solid rgb(120, 121, 186);
 }
 
 .team-name{
@@ -141,4 +144,12 @@ table, tr, td{
 .introduction{
     margin-left: 20px;
     margin-bottom: 50px;
+}
+
+.intro-container{
+    margin-top: 30px;
+    padding: 30px 30px;
+    background-image: url(background-intro.jpg);
+    background-color: rgba(250, 255, 255, 0.2);
+    background-size: cover;
 }
