@@ -18,11 +18,6 @@ body {
   display:none;
 }
 
-img {
-  height: 300px;
-  width: 300px;
-}
-
 header {
   height: 70px;
   width: 100%;
@@ -83,9 +78,13 @@ footer {
   .phone {
     display:none;
   }
-  img {
-    height: 250px;
-    width: 250px;
+  .mascot-image{
+    height:250px;
+    width:250px;
+  }
+  .honor-code-image{
+    width:400px;
+    height:240px;
   }
 }
 
@@ -102,9 +101,9 @@ footer {
   .phone {
     display:block;
   }
-  img {
-    height: 150px;
-    width: 150px;
+  .honor-code-image{
+    width:250px;
+    height:150px;
   }
 }
 
@@ -147,6 +146,11 @@ table, tr, td{
     text-align: center;
 }
 
+.mascot-image{
+    height:300px;
+    width:300px;
+}
+
 .introduction{
     margin-left: 20px;
     margin-bottom: 40px;
@@ -158,4 +162,9 @@ table, tr, td{
     background-image: url(background-intro.jpg);
     background-color: rgba(250, 255, 255, 0.2);
     background-size: cover;
+}
+
+.honor-code-image{
+    width:500px;
+    height:300px;
 }
