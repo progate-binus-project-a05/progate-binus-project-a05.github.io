@@ -1,4 +1,4 @@
-# site: 
+# site: http://progate-binus-project-a05.github.io/a05
 
 Images used:
 
@@ -16,4 +16,5 @@ Other webpage consulted and studied:
 - https://www.codecademy.com/forum_questions/5293eeb3f10c6069700004fa (tables, consulted on 8 May 2021)
 - https://twitter.com/progateen (mascot.jpg)
 - https://www.rawpixel.com/image/585921/free-photo-image-background-product-background-texture (background-intro.jpg)
+- https://student-activity.binus.ac.id/band/2017/09/di-binus-university-menyontek-drop-out/ (honor code image)
 
