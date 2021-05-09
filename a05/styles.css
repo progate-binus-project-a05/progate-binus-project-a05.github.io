@@ -52,6 +52,23 @@ header:hover {
   color: whitesmoke;
 }
 
+/* This is used for creating the honor code grid */
+.grid-honor-code{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-honor-code{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.item-honor-code img{
+  width:80px;
+  height: 80px;
+}
+
 footer p {
   color: whitesmoke;
   font-size: 12px;
@@ -64,6 +81,7 @@ footer {
   padding-top: 20px;
   background-color: rgb(120, 121, 186); 
 }
+
 
 /* Responsive for tablets */
 @media all and (max-width: 1000px) {
@@ -86,6 +104,7 @@ footer {
     width:400px;
     height:240px;
   }
+
 }
 
 /* Responsive for smartphones */
@@ -104,6 +123,13 @@ footer {
   .honor-code-image{
     width:250px;
     height:150px;
+  }
+  /*Adjusting the interface of the honor code for mobile */
+  .grid-honor-code{
+    flex-direction: column;
+  }
+  .item-honor-code{
+    margin-bottom: 10px;
   }
 }
 

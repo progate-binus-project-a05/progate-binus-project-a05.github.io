@@ -1,4 +1,11 @@
 # site: http://progate-binus-project-a05.github.io/a05
+
+Images used:
+
+- https://img.icons8.com/officel/16/000000/gears.png (Gears image, taken on 9 May 2021)
+- https://www.flaticon.com/free-icon/invisible_565655 (No Cheating image, taken on 9 May 2021)
+- https://www.indiamart.com/proddetail/anti-plagiarism-services-19222388655.html (No Plagiarism image, taken on 9 May 2021)
+
 Other webpage consulted and studied:
 - https://adityawira15.github.io/ (sample profile webpage, consulted on 7 May 2021)
 - https://www.w3schools.com/css/css_rwd_mediaqueries.asp (responsive sample code, consulted on 7 May 2021)
@@ -10,3 +17,4 @@ Other webpage consulted and studied:
 - https://twitter.com/progateen (mascot.jpg)
 - https://www.rawpixel.com/image/585921/free-photo-image-background-product-background-texture (background-intro.jpg)
 - https://student-activity.binus.ac.id/band/2017/09/di-binus-university-menyontek-drop-out/ (honor code image)
+
